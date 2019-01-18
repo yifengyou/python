@@ -46,7 +46,43 @@ Python 是初学者的语言：Python 对初级程序员而言，是一种伟大
 * Python 3.5.2文档<https://yiyibooks.cn/xx/python_352/index.html>
 * Pypi<https://pypi.org/>
 
+## 目录
 
+* [Python学习笔记](README.md)
+* [Python简介](docs/introduce/Python简介.md)
+* [Python环境搭建](docs/installation/Python环境搭建.md)
+* [Python基本数据类型](docs/basictype/Python基本数据类型.md)
+    * [字符串类型](docs/basictype/字符串类型.md)
+    * [整型](docs/basictype/整型.md)
+    * [浮点类型](docs/basictype/浮点类型.md)
+* [Python运算符](docs/operation/Python运算符.md)
+    * [Python比较运算符](docs/operation/Python比较运算符.md)
+    * [Python成员运算符](docs/operation/Python成员运算符.md)
+    * [Python身份运算符](docs/operation/Python身份运算符.md)
+    * [Python布尔运算符](docs/operation/Python布尔运算符.md)
+* [Python循环控制](docs/loopcontrol/Python循环控制.md)
+    * [for循环](docs/loopcontrol/for循环.md)
+    * [while循环](docs/loopcontrol/while循环.md)
+* [Python条件判断](docs/ifelse/Python条件判断.md)
+    * [Python逻辑判断True&False](docs/ifelse/Python逻辑判断True&False.md)
+    * [Python条件控制](docs/ifelse/Python条件控制.md)
+* [Python数据结构](docs/datastructure/Python数据结构.md)
+    * [列表](docs/datastructure/列表.md)
+    * [字典](docs/datastructure/字典.md)
+    * [元组](docs/datastructure/元组.md)
+    * [集合](docs/datastructure/集合.md)
+    * [推导式](docs/datastructure/推导式.md)
+* [Python函数](docs/function/Python函数.md)
+    * [Python内建函数](docs/function/Python内建函数.md)
+    * [Python自定义函数](docs/function/Python自定义函数.md)
+* [Python类](docs/class/Python类.md)
+    * [Python类的定义](docs/class/Python类的定义.md)
+    * [Python类的实例化](docs/class/Python类的实例化.md)
+    * [Python类的继承](docs/class/Python类的继承.md)
+* [Python库](docs/lib/Python库.md)
+    * [pip工具](docs/lib/pip工具.md)
+    * [Python虚拟化环境](docs/lib/Python虚拟化环境.md)
+* [Python源码](docs/source/Python源码.md)
 
 
 ---
