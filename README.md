@@ -41,8 +41,10 @@ Python 是初学者的语言：Python 对初级程序员而言，是一种伟大
 
 
 
+## Python资源
 
-
+* Python 3.5.2文档<https://yiyibooks.cn/xx/python_352/index.html>
+* Pypi<https://pypi.org/>
 
 
 
