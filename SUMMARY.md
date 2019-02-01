@@ -34,5 +34,7 @@
 * [Python库](docs/lib/Python库.md)
     * [pip工具](docs/lib/pip工具.md)
     * [Python虚拟化环境](docs/lib/Python虚拟化环境.md)
+* [老男孩系列Python入门到入土](docs/oldboy/老男孩系列Python入门到入土.md)
+    * [课程表](docs/oldboy/课程表.md)
+    * [框架](docs/oldboy/框架.md)
 * [Python源码](docs/source/Python源码.md)
-
