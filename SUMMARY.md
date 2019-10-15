@@ -2,7 +2,8 @@
 
 * [Python学习笔记](README.md)
 * [Python简介](docs/Python简介.md)
-* [Python环境搭建](docs/Python环境搭建/Python环境搭建.md)
+* [Python环境搭建](docs/Python环境搭建.md)
+* [PyCharm使用](docs/PyCharm使用.md)
 * [Python基本数据类型](docs/Python基本数据类型/Python基本数据类型.md)
     * [字符串类型](docs/Python基本数据类型/字符串类型.md)
     * [整型](docs/Python基本数据类型/整型.md)

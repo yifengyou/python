@@ -22,6 +22,10 @@ Something I hope you know before go into the coding~
 * Bug report, questions and discussion are welcome, you can post an issue or pull a request.
 ```
 
+* GitBook:<https://yifengyou.gitbooks.io/learn-python/content/>
+* GitHub:<https://github.com/yifengyou/learn-python/>
+* GitPage:<https://yifengyou.github.io/learn-python/>
+
 ## 目录
 
 * [Python学习笔记](README.md)
