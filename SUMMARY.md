@@ -37,9 +37,13 @@
     * [Python类的实例化](docs/Python类/Python类的实例化.md)
     * [Python类的继承](docs/Python类/Python类的继承.md)
 * [Python库](docs/Python库/Python库.md)
+    * [Python包使用](docs/Python库/Python包使用.md)
     * [pip工具](docs/Python库/pip工具.md)
     * [Python虚拟化环境](docs/Python库/Python虚拟化环境.md)
 * [老男孩系列Python教程](docs/老男孩系列Python教程.md)
     * [课程表](docs/老男孩系列Python教程/课程表.md)
     * [框架](docs/老男孩系列Python教程/框架.md)
+* [2019千锋好程序员全新Python教程](docs/2019千锋好程序员全新Python教程.md)
+    * [课程表](docs/2019千锋好程序员全新Python教程/课程表.md)
+    * [框架](docs/2019千锋好程序员全新Python教程/框架.md)
 
