@@ -28,6 +28,7 @@ Something I hope you know before go into the coding~
 
 ## 目录
 
+* [Python学习笔记](README.md)
 * [Python简介](docs/Python简介.md)
 * [Python环境搭建](docs/Python环境搭建.md)
     * [Python交互式命令](docs/Python环境搭建/Python交互式命令.md)
@@ -35,14 +36,14 @@ Something I hope you know before go into the coding~
     * [Python内置命令](docs/Python环境搭建/Python内置命令.md)
     * [pip包管理器](docs/Python环境搭建/pip包管理器.md)
 * [PyCharm开发环境](docs/PyCharm开发环境.md)
-    * [获取PyCharm](docs/获取PyCharm.md)
-    * [PyCharm基本使用](docs/PyCharm基本使用.md)
-    * [PyCharm设置](docs/PyCharm使用/PyCharm设置.md)
+    * [获取PyCharm](docs/PyCharm开发环境/获取PyCharm.md)
+    * [PyCharm基本使用](docs/PyCharm开发环境/PyCharm基本使用.md)
+    * [PyCharm设置](docs/PyCharm开发环境//PyCharm设置.md)
         * [PyCharm代理设置](docs/PyCharm开发环境/PyCharm设置/PyCharm代理设置.md)
         * [PyCharm虚拟环境配置](docs/PyCharm开发环境/PyCharm设置/PyCharm虚拟环境配置.md)
         * [PyCharm添加模块](docs/PyCharm开发环境/PyCharm设置/PyCharm添加模块.md)
         * [Pycharm用Ctrl+鼠标滚轮控制字体大小](docs/PyCharm开发环境/PyCharm设置/Pycharm用Ctrl+鼠标滚轮控制字体大小.md)
-    * [PyCharm快捷键](docs/PyCharm快捷键.md)
+    * [PyCharm快捷键](docs/PyCharm开发环境/PyCharm快捷键.md)
 * [Python基本数据类型](docs/Python基本数据类型/Python基本数据类型.md)
     * [字符串类型](docs/Python基本数据类型/字符串类型.md)
     * [整型](docs/Python基本数据类型/整型.md)
@@ -81,6 +82,7 @@ Something I hope you know before go into the coding~
 * [2019千锋好程序员全新Python教程](docs/2019千锋好程序员全新Python教程.md)
     * [课程表](docs/2019千锋好程序员全新Python教程/课程表.md)
     * [框架](docs/2019千锋好程序员全新Python教程/框架.md)
+
 
 
 ## Python资源
