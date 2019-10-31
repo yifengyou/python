@@ -28,7 +28,6 @@ Something I hope you know before go into the coding~
 
 ## 目录
 
-* [Python学习笔记](README.md)
 * [Python简介](docs/Python简介.md)
 * [Python环境搭建](docs/Python环境搭建.md)
     * [Python交互式命令](docs/Python环境搭建/Python交互式命令.md)
