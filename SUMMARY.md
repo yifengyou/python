@@ -12,6 +12,7 @@
     * [PyCharm基本使用](docs/PyCharm开发环境/PyCharm基本使用.md)
     * [PyCharm设置](docs/PyCharm开发环境//PyCharm设置.md)
         * [PyCharm代理设置](docs/PyCharm开发环境/PyCharm设置/PyCharm代理设置.md)
+        * [PyCharm语言修改](docs/PyCharm开发环境/PyCharm设置/PyCharm语言修改.md)
         * [PyCharm虚拟环境配置](docs/PyCharm开发环境/PyCharm设置/PyCharm虚拟环境配置.md)
         * [PyCharm添加模块](docs/PyCharm开发环境/PyCharm设置/PyCharm添加模块.md)
         * [Pycharm用Ctrl+鼠标滚轮控制字体大小](docs/PyCharm开发环境/PyCharm设置/Pycharm用Ctrl+鼠标滚轮控制字体大小.md)
