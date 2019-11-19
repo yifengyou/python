@@ -22,9 +22,9 @@ Something I hope you know before go into the coding~
 * Bug report, questions and discussion are welcome, you can post an issue or pull a request.
 ```
 
-* GitBook : <https://yifengyou.gitbooks.io/learn-python/content/>
-* GitHub : <https://github.com/yifengyou/learn-python/>
-* GitPage : <https://yifengyou.github.io/learn-python/>
+* GitBook : <https://yifengyou.gitbooks.io/learn-Python/content/>
+* GitHub : <https://github.com/yifengyou/learn-Python/>
+* GitPage : <https://yifengyou.github.io/learn-Python/>
 
 ## 目录
 
@@ -83,7 +83,7 @@ Something I hope you know before go into the coding~
 
 ## Python资源
 
-* Python 3.5.2文档 : <https://yiyibooks.cn/xx/python_352/index.html>
+* Python 3.5.2文档 : <https://yiyibooks.cn/xx/Python_352/index.html>
 * Pypi : <https://pypi.org/>
 
 ## Python优点
