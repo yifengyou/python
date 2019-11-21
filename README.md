@@ -125,19 +125,11 @@ Something I hope you know before go into the coding~
         * [Python编程:快速上手让繁琐工作自动化](docs/Python教程/书籍/Python编程快速上手让繁琐工作自动化.md)
         * [Head First Python](docs/Python教程/书籍/HeadFirstPython.md)
 
-
-
-## Python资源
+## 参考
 
 * Python 3.5.2文档 : <https://yiyibooks.cn/xx/Python_352/index.html>
 * Pypi : <https://pypi.org/>
-
-## Python优点
-
-* 优雅-使你能够专注于解决问题而不是去搞明白语言本身
-* 功能强大-牛逼的兼容性-丰富的库
-* 胶水语言-支持混合编译的方式使用其他语言的库
-* 简单
+* 思维导图 : <https://blog.csdn.net/csdnnews/article/details/78248699>
 
 ---
 
@@ -147,9 +139,6 @@ Something I hope you know before go into the coding~
 
 ![1547809867473.png](image/1547809867473.png)
 
-![1547809961001.png](image/1547809961001.png)
-
-![20191026_182518_50](image/20191026_182518_50.png)
 
 
 
