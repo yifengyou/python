@@ -9,6 +9,7 @@
     * [is](docs/关键字/is.md)
     * [assert](docs/关键字/assert.md)
 * [内置函数](docs/常用内置.md)
+    * [next()](docs/常用内置/next.md)
 * [基本数据类型](docs/基本数据类型.md)
     * [列表](docs/基本数据类型/列表.md)
     * [字典](docs/基本数据类型/字典.md)
