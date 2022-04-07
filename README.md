@@ -19,10 +19,12 @@
     * [GIL全局解释器锁](docs/基本原理/GIL全局解释器锁.md)
 * [基本写法](docs/基本写法.md)
     * [常用类型转换](docs/基本写法/常用类型转换.md)
-* [常用库](docs/常用库.md)
-    * [time](docs/常用库/time.md)
-    * [sys](docs/常用库/sys.md)
-
+* [标准库](docs/标准库.md)
+    * [time](docs/标准库/time.md)
+    * [sys](docs/标准库/sys.md)
+    * [distutils](docs/标准库/distutils.md)
+* [扩展库](docs/扩展库.md)
+    * [setuptools](docs/扩展库/setuptools.md)
 
 
 
