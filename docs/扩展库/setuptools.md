@@ -1,5 +1,13 @@
 # setuptools
 
+![20220408_154151_30](image/20220408_154151_30.png) 
+
+## 相关链接
+
+* <https://pypi.org/project/setuptools/7.0/>
+* <https://setuptools.pypa.io/en/latest/userguide/index.html>
+
+
 * setuptools 是 distutils 增强版，不包括在标准库中。
 * setuptools 扩展了很多功能，能够帮助开发者更好的创建和分发 Python 包。
 * 大部分 Python 用户都会使用更先进的 setuptools 模块。
