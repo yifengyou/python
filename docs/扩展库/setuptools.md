@@ -3,14 +3,17 @@
 - [setuptools](#setuptools)   
    - [相关链接](#相关链接)   
    - [模板](#模板)   
-   - [build](#build)   
-   - [install](#install)   
-   - [develop](#develop)   
-   - [sdist](#sdist)   
-   - [bdist](#bdist)   
-   - [bdist_rpm](#bdist_rpm)   
-   - [bdist_wininst](#bdist_wininst)   
-   - [bdist_dumb](#bdist_dumb)   
+   - [配置](#配置)   
+      - [entry_points](#entry_points)   
+   - [命令](#命令)   
+      - [build](#build)   
+      - [install](#install)   
+      - [develop](#develop)   
+      - [sdist](#sdist)   
+      - [bdist](#bdist)   
+      - [bdist_rpm](#bdist_rpm)   
+      - [bdist_wininst](#bdist_wininst)   
+      - [bdist_dumb](#bdist_dumb)   
    - [参考](#参考)   
 
 <!-- /MDTOC -->
@@ -124,15 +127,58 @@ setup(
 ```
 
 
+## 配置
+
+### entry_points
+
+* 一个字典，从entry point组名映射道一个表示entry point的字符串或字符串列表。
+* Entry points是用来支持动态发现服务和插件的，也用来支持自动生成脚本。
 
 
-## build
+```
+setup(
+    entry_points = {
+        'console_scripts': [
+            'foo = demo:test',
+            'bar = demo:test',
+        ],
+        'gui_scripts': [
+            'baz = demo:test',
+        ]
+    }
+)
+```
+
+修改setup.py增加以上内容以后，再次安装这个egg，可以发现在安装信息里头多了两行代码（Linux下）
+```
+Installing foo script to /usr/local/bin
+Installing bar script to /usr/local/bin
+```
+查看/usr/local/bin/foo内容
+```
+#!/usr/bin/python
+# EASY-INSTALL-ENTRY-SCRIPT: 'demo==0.1','console_scripts','foo'
+__requires__ = 'demo==0.1'
+import sys
+from pkg_resources import load_entry_point
+
+if __name__ == '__main__':
+    sys.exit(
+        load_entry_point('demo==0.1', 'console_scripts', 'foo')()
+    )
+```
+这个内容其实显示的意思是，foo将执行console_scripts中定义的foo所代表的函数。执行foo，发现打出了hello world!，和预期结果一样。
+
+
+## 命令
+
+### build
 
 ```
 python3 setup.py build
 ```
 
-## install
+### install
 
 ```
 python3 setup.py install
@@ -155,7 +201,7 @@ running build_ext
 ```
 
 
-## develop
+### develop
 
 ```
 python3 setup.py develop
@@ -165,7 +211,7 @@ python3 setup.py develop
 
 
 
-## sdist
+### sdist
 
 ```
 python3 setup.py sdist
@@ -180,7 +226,7 @@ python3 setup.py sdist --formats=gztar
 * 执行后，文件夹下多了dist文件夹（包含压缩源码的分发包）和egg-info文件夹（中间临时配置信息）
 
 
-## bdist
+### bdist
 
 * python目前主流的二进制包格式是wheel（.whl后缀），它的前身是egg。
 * wheel本质也还是一个压缩包，可以像像zip一样解压缩。
@@ -189,7 +235,7 @@ python3 setup.py sdist --formats=gztar
 
 
 
-## bdist_rpm
+### bdist_rpm
 
 ```
 python3 setup.py bdist_rpm
@@ -198,7 +244,7 @@ python3 setup.py bdist_rpm
 * 生成rpm包。架构无关
 
 
-## bdist_wininst
+### bdist_wininst
 
 ```
 python3 setup.py bdist_wininst
@@ -207,7 +253,7 @@ python3 setup.py bdist_wininst
 * 生成windows下的包，exe格式
 
 
-## bdist_dumb
+### bdist_dumb
 
 ```
 python3 setup.py bdist_dumb
@@ -226,7 +272,7 @@ python3 setup.py bdist_dumb
 ## 参考
 
 * <https://zhuanlan.zhihu.com/p/460233022>
-
+* <https://www.cnblogs.com/yangmaosen/p/13895929.html>
 
 
 
