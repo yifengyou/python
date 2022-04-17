@@ -1,5 +1,7 @@
 # python代码片段
 
+![20220417_191854_34](image/20220417_191854_34.png) 
+
 ## 目录
 
 * [Python特性](docs/Python特性.md)
@@ -33,11 +35,12 @@
         * [distutils](docs/标准库/软件打包和分发/distutils.md)
     * [调试和分析](docs/标准库/调试和分析.md)
         * [trace](docs/标准库/调试和分析/trace.md)
+    * [文本处理服务](docs/标准库/文本处理服务.md)
+        * [re](docs/标准库/文本处理服务/re正则表达式操作.md)
+        * [string](docs/标准库/文本处理服务/string常见的字符串操作.md)
 * [扩展库](docs/扩展库.md)
     * [setuptools](docs/扩展库/setuptools.md)
     * [code](docs/扩展库/code.md)
-
-
 
 
 
