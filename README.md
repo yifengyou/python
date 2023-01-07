@@ -1,6 +1,6 @@
 # python代码片段
 
-![20220417_191854_34](image/20220417_191854_34.png) 
+![20220417_191854_34](image/20220417_191854_34.png)
 
 ## 目录
 
@@ -41,7 +41,8 @@
 * [扩展库](docs/扩展库.md)
     * [setuptools](docs/扩展库/setuptools.md)
     * [code](docs/扩展库/code.md)
-
+    * [configparser](docs/扩展库/configparser.md)
+    * [optparse](docs/扩展库/optparse.md)
 
 
 
