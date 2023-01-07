@@ -38,8 +38,6 @@
 * [扩展库](docs/扩展库.md)
     * [setuptools](docs/扩展库/setuptools.md)
     * [code](docs/扩展库/code.md)
+    * [configparser](docs/扩展库/configparser.md)
+    * [optparse](docs/扩展库/optparse.md)
 
-
-文本处理服务
-string --- 常见的字符串操作
-re --- 正则表达式操作
